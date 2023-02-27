@@ -21,7 +21,6 @@ if  (emailVerificata) {
 
 //Bonus 
 
-
 const verify = document.querySelector('#verify');
 
 verify.addEventListener('click', verify_email); 

@@ -1,13 +1,53 @@
 /********************************************/
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tilt Warp', cursive;
+}
 
 /********************************************/
 
+body {
+    background-color: rgb(18, 69, 89);
+}
 
+.container {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    background-image: ;
+    font-size: 4rem;
+    color: rgb(126, 162, 170);
+}
+
+.boh {
+    margin-left: 1rem;
+    margin-top: 350px;
+    font-size: 0.5rem;
+    color: rgb(139, 232, 203);
+}
+
+.boh2 {
+    margin-left: 1rem;
+    margin-top: 2rem;
+    font-size: 3rem;
+    color: rgb(139, 232, 203);
+}
+
+.boh i {
+    margin-left: 1rem;
+}
 
 /********************************************/
 
+.d-flex {
+    display: flex;
+}
 
+.d-none {
+    display: none;
+}
 
 /********************************************/
 
