@@ -7,17 +7,43 @@
     <title>Dadini</title>
 
 
-    <!--       FONTAWESOME e CSS
+    
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="css/style.css" rel="stylesheet">         -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 
+    <div class="boh">
+        <div id="win" class="d-none">
+           <p>Hai vinto!</p> 
+           <i class="fa-solid fa-face-smile"></i>
+        </div>
+    </div>
 
+    <div class="d-flex">
+        <div class="container_1">
+            <div class="result">
+                <i class="fa-solid fa-dice"></i>
+                <p> Il dado del sistema: <span id="dadosis"></span></p>  
+            </div>
+            
+        </div>
+        
+        <div class="container_2">
+            <div class="result">
+                <i class="fa-solid fa-dice"></i>
+               <p> Il tuo dado: <span id="dadous"></span></p> 
+            </div>
+        </div>   
+    </div>    
 
-
-
+    <div class="boh">
+        <div id="lose" class="d-none">
+           <p>Hai perso!</p> 
+           <i class="fa-solid fa-face-sad-tear"></i>
+        </div>
+    </div>
     
     <script type="text/javascript" src="js/main.js"></script>
 </body>
