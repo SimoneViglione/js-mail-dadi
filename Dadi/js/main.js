@@ -1,4 +1,4 @@
-alert("Il sistema tirerà un dado per te ed uno per sé stesso, chi ottiene il risultato più alto vince, quando ti senti pronto premi OK");
+alert("Il sistema tirerà un dado per te ed uno per sé stesso, chi ottiene il risultato più alto vince, quando ti senti pronto premi \"OK\"");
 
 const win = document.getElementById("win");
 const lose = document.getElementById("lose");

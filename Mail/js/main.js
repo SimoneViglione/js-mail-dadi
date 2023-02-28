@@ -24,22 +24,23 @@ if  (emailVerificata) {
 const verify = document.querySelector('#verify');
 
 verify.addEventListener('click', verify_email); 
-    function verify_email() {
-        const userEmail = document.querySelector('#email').value;
 
-        let emailVerificata = false;
+function verify_email() {
+    const userEmail = document.querySelector('#email').value;
 
-        for (let i = 0; i < emailArray.length; i++) {
-            if (userEmail === emailArray[i]) {
-                emailVerificata = true;
-            }
+    let emailVerificata = false;
+
+    for (let i = 0; i < emailArray.length; i++) {
+        if (userEmail === emailArray[i]) {
+            emailVerificata = true;
         }
+    }
 
-        if  (emailVerificata) {
-            alert("Benvenuto " + userEmail + "!");
-        } else {
-            alert("Ci dispiace, Non hai i permessi per accedere a questa pagina :( ");
-        }
+    if  (emailVerificata) {
+        alert("Benvenuto " + userEmail + "!");
+    } else {
+        alert("Ci dispiace, Non hai i permessi per accedere a questa pagina :( ");
+    }
 }
 
 
